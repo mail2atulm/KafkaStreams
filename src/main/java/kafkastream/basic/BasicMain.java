@@ -33,7 +33,7 @@ import org.apache.kafka.streams.kstream.Produced;
  * @author mahajan_a
  *
  */
-public class BasicOperations {
+public class BasicMain {
 
   public static void main(String[] args) {
     

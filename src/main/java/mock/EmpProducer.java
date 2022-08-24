@@ -52,7 +52,7 @@ public class EmpProducer {
       ProducerRecord<String, String> record = new ProducerRecord<>(topic, emp.getCity(), json);
       Future<RecordMetadata> resp = producer.send(record); //TODO handle errors if any
       try {
-        Thread.currentThread().sleep(500);
+        Thread.currentThread().sleep(1000);
       } catch (InterruptedException e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
